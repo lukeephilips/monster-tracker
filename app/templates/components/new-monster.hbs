@@ -1,0 +1,48 @@
+{{#if addNewMonster}}
+<h1>New Monster</h1>
+  <div>
+    <form>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="form-group">
+            <label for="name">Name</label>
+            {{input value=name id="name" class="form-control"}}
+          </div>
+          <div class="form-group">
+            <label for="blurb">Blurb</label>
+            {{input value=blurb id="blurb" class="form-control"}}
+          </div>
+          <div class="form-group">
+            <label for="description">Description</label>
+            {{input value=description id="description" class="form-control"}}
+          </div>
+          <div class="form-group">
+            <label for="image">Image URL</label>
+            {{input value=image id="image" class="form-control"}}
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="form-group">
+            <label for="location">Location</label>
+            {{input value=location id="location" class="form-control"}}
+          </div>
+          <div class="form-group">
+            <label for="danger">Danger Level</label>
+            {{input value=danger id="danger" class="form-control"}}
+          </div>
+          <div class="form-group">
+            <label for="attack">At Risk for</label>
+            {{input value=attack id="attack" class="form-control"}}
+          </div>
+          <div class="form-group">
+            <label for="recommendation">Recommendation</label>
+            {{input value=recommendation id="recommendation" class="form-control"}}
+          </div>
+        </div>
+        <button {{action 'saveMonster'}} class="btn btn-success btn-lg center-block">Save</button>
+      </div>
+    </form>
+  </div>
+{{else}}
+<button {{action 'toggleMonsterForm'}} class="btn btn-success btn-lg center-block">Add New Monster</button>
+{{/if}}

@@ -1,0 +1,38 @@
+{"monsters": [{
+  "name": "Sasquatch",
+  "blurb":"shy apeish thing",
+  "description":"In American folklore, Bigfoot (also known as Sasquatch) is a simian-like creature that is said to inhabit forests, mainly in the Pacific Northwest. Bigfoot is usually described as a large, hairy, bipedal humanoid. The term sasquatch is an Anglicized derivative of the Halkomelem word sásq'ets.",
+  "image":"http://cdn.moviestillsdb.com/sm/fcd26c2eedb8c512439d5ba22104de7b/harry-and-the-hendersons.jpg",
+  "location":"Pacific Northwest",
+  "danger":"low",
+  "attack":"monkey strength",
+  "recommendation":"take pictures"
+  },{
+    "name": "Kraken",
+    "blurb":"squiddy underwater thing",
+    "description":"The Kraken is a legendary sea monster of giant size that is said to dwell off the coasts of Norway and Greenland. A number of authors over the years have postulated that the legend originated from sightings of giant squids that may grow to 12–15 meters (40–50 feet) in length, despite the fact that the creature in the original tales was not described as having tentacles and more closely resembled a whale or crab. The sheer size and fearsome appearance attributed to the kraken have made it a common ocean-dwelling monster in various fictional works.",
+    "image":"http://rashmanly.files.wordpress.com/2011/07/sea-monster.jpg",
+    "location":"Deep Atlantic",
+    "danger":"extreme",
+    "attack":"pulling ships into the briney depths",
+    "recommendation":"avoid uncharted waters"
+  },{
+      "name": "Mister Boogedy",
+      "blurb":"some kind of dorky ghost",
+      "description":"The ghost of an ancient pilgrim, with a magic cloak",
+      "image":"http://i476.photobucket.com/albums/rr125/flanger-hanger/vlcsnap-2015-11-03-18h56m32s59_zpsflyzu1vf.png",
+      "location":"New England",
+      "danger":"moderate",
+      "attack":"telekenesis and general spookiness",
+      "recommendation":"attack with vaccuum"
+    },{
+      "name": "Chupacabra",
+      "blurb":"sneaky cat-like beast",
+      "description":"The chupacabra or chupacabras, literally 'goat-sucker'; from 'chupar', 'to suck', and 'cabra', 'goat') is a legendary creature in the folklore of parts of the Americas, with its first purported sightings reported in Puerto Rico. The name comes from the animal's reported habit of attacking and drinking the blood of livestock, especially goats. Physical descriptions of the creature vary. It is purportedly a heavy creature, the size of a small bear, with a row of spines reaching from the neck to the base of the tail.",
+      "image":"http://cdn.playbuzz.com/cdn/313ba068-99b3-43fa-9eb4-41791f6a6a8b/88fa7104-5ed6-4b3d-8b9e-0584ca0b3604.jpg",
+      "location":"Northern Mexico",
+      "danger":"high",
+      "attack":"tears sheep to pieces with it's razor teeth",
+      "recommendation":"lock livestock at night"
+}]
+}

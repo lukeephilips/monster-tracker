@@ -1,0 +1,11 @@
+body {
+  background-image: url(http://www.socwall.com/images/wallpapers/29650-1800x1600.jpg);
+}
+.container {
+}
+img {
+  width: 300px;
+}
+img.wide {
+  width: 800px;
+}

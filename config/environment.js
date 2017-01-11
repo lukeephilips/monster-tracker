@@ -16,7 +16,12 @@ module.exports = function(environment) {
         Date: false
       }
     },
-
+    firebase: {
+      apiKey: "AIzaSyDd9ZD4PCTbh8owQ-cVbxn2nOr5kG2Avpo",
+      authDomain: "monster-tracker-8fc47.firebaseapp.com",
+      databaseURL: "https://monster-tracker-8fc47.firebaseio.com",
+      storageBucket: "monster-tracker-8fc47.appspot.com",
+    },
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
