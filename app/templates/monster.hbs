@@ -1,1 +1,27 @@
-{{outlet}}
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="row">
+      <div class="col-sm-10">
+        <h2>{{model.name}}</h2>
+      </div>
+      <div>
+        {{update-monster monster=model updateMonster="updateMonster"}}
+
+        <button {{action 'destroyMonster' model}} class="btn btn-danger btn-sm">Destroy Monster</button>
+      </div>
+    </div>
+  </div>
+  <div class="panel-body">
+    <div class="row well">
+        <h3>{{model.blurb}}</h3>
+        <p>{{model.description}}</p>
+        <h4>Location: {{model.location}}</h4>
+        <h4>Danger Level: {{model.danger}}</h4>
+        <h4>Risk Factors: {{model.attack}}</h4>
+        <h3>Recommendation: {{model.recommendation}}</h3>
+      </div>
+      <div class="row">
+        <img src={{model.image}} alt={{model.name}} class="img-responsive img-rounded wide">
+      </div>
+  </div>
+</div>

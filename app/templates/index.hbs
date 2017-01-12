@@ -6,11 +6,6 @@
         <div class="col-sm-10">
           <h2>{{monster.name}}</h2>
         </div>
-        <div class="col-sm-2">
-          {{update-monster monster=monster updateMonster="updateMonster"}}
-
-          <button {{action 'destroyMonster' monster}} class="btn btn-danger btn-sm">Destroy Monster</button>
-        </div>
       </div>
     </div>
     <div class="panel-body">
@@ -18,12 +13,13 @@
         <div class="col-sm-8">
           <h3>{{monster.blurb}}</h3>
           <h4>Location: {{monster.location}}</h4>
+          <h4>Danger Level: {{monster.danger}}</h4>
           <h4>Risk Factors: {{monster.attack}}</h4>
           <h3>Recommendation: {{monster.recommendation}}</h3>
         </div>
         <div class="col-sm-4">
-          <a {{action 'toggleImageSize'}}>
-            <img src={{monster.image}} alt={{monster.name}} class="img-responsive img-rounded"></a>
+          {{#link-to 'monster' monster.id}}
+            <img src={{monster.image}} alt={{monster.name}} class="img-responsive img-rounded">{{/link-to}}
         </div>
       </div>
     </div>
